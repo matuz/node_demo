@@ -1,0 +1,9 @@
+socket:
+  build: demo_socket
+  ports:
+    - "3000:3000"
+
+express:
+  build: demo_express
+  ports:
+    - "3001:3000"
